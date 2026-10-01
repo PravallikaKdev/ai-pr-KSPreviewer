@@ -7,7 +7,7 @@ token = os.getenv("GITHUB_TOKEN")  # Replace this with your GitHub Token
 g = Github(auth=Auth.Token(token))  # Authenticate with the GitHub API using the token
 
 # GitHub repository and PR detailstoken = ''
-repo_name = "PravallikaKdev/ai-pr-KSPreviewer.git"  # Name of the GitHub repository
+repo_name = "PravallikaKdev/ai-pr-KSPreviewer"  # Name of the GitHub repository
 pr_number = 1  # This is the pull request number to be reviewed; replace dynamically in CI/CD
 
 # Function to check the CI/CD status of a PR
