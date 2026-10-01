@@ -23,7 +23,7 @@ jobs:
       # Step 3: Install dependencies
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          py -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest  # Explicitly install pytest
           pip install coverage  # Ensure coverage is installed
